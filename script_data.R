@@ -1,8 +1,12 @@
 
 
 library(planex)
-library(haven)
 
+# data("capacidade")
+# readr::write_delim(capacidade, "data/capacidade.csv")
+  
+# data("baterias")
+# readr::write_delim(baterias, "data/baterias.csv")
 
-data("acabamento")
-write_sas(acabamento, "data/acabamento.sas7bdat")
+data("refrigerantes")
+readr::write_delim(refrigerantes, "data/refrigerantes.csv")
