@@ -21,3 +21,7 @@ refrigerantes <- refrigerantes %>%
 head(refrigerantes)
 
 readr::write_delim(refrigerantes, "data/refrigerantes.csv")
+
+
+data("turbinas")
+readr::write_delim(turbinas, "data/turbinas.csv")
