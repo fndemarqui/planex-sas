@@ -9,8 +9,8 @@ library(tidyverse)
 # data("baterias")
 # readr::write_delim(baterias, "data/baterias.csv")
 
-data("refrigerantes")
-
+data("fornecedores")
+readr::write_delim(fornecedores, "data/fornecedores.csv")
 
 refrigerantes <- refrigerantes %>%
   rename(
